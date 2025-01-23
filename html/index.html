@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <!-- Start Navbar Section -->
+    <header class="navbar">
+      <div class="logoImg">
+        <img
+          alt="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJEMWWNemuDkcOxlYlzlx2IFfy4-ylzFaeCA&s"
+        />
+      </div>
+
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="contact-number">Call us: +123 456 7890</div>
+    </header>
+
+    <!-- End Navbar Section -->
+
+    <!-- start banner section -->
+    <section id="home" class="banner-slider">
+      <div class="slides">
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+            alt="Banner 1"
+          />
+          <div class="banner-overlay">
+            <h1>Welcome to Our Professional Space</h1>
+            <p>Innovative Solutions for Modern Living</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://balicomfyvillas.com/wp-content/uploads/2024/11/DSC00394.jpg"
+            alt="Banner 2"
+          />
+          <div class="banner-overlay">
+            <h1>Discover Our Projects</h1>
+            <p>Delivering Excellence in Every Step</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://evolveindia.co/wp-content/uploads/2021/07/1_The-Wooden-Rhapsody-Modern-Bedroom-Interior-Design.jpg"
+            alt="Banner 3"
+          />
+          <div class="banner-overlay">
+            <h1>Join Our Community</h1>
+            <p>Empowering Lives Through Innovation</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+    </section>
+
+    <!-- End Banner Section -->
+
+    <!-- Content Start -->
+     <div id="about" class="mainContent">
+        <div class="leftContent">
+            <p class="contentPara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eaque quis quidem ab! Ipsum et ipsa illo dolor accusamus fuga accusantium dolorem nulla ratione vel. dolor accusamus fuga accusantium dolorem nulla ratione vel. Culpa laboriosam quidem quod at.<br>
+                <span class="interioDesign">Interi<span style="color:white">or</span> <br> Design</span>
+            </p>
+            <img class="contentImg" src="https://www.hotels-in-pune.net/data/Pics/OriginalPhoto/7755/775567/775567342/pic-np-hospitality-magarpatta-city-guest-house-pune-1.JPEG" alt="" >
+        </div>
+        <div class="rightContent">
+            <div class="rightContent1">
+                <p class="heading-dream">Designing Dreams<br> Crafting Realities</p>
+                <button class="btn-inqry">Send Enquiry</button>
+            </div>
+            <img class="contentImg1" src="https://www.hotels-in-pune.net/data/Pics/OriginalPhoto/7755/775562/775562830/pic-np-hospitality-magarpatta-city-guest-house-pune-12.JPEG" alt="" >
+        </div>
+        </div>
+     </div>
+    <!-- Content End -->
+
+    <!-- Project Section Start -->
+
+    <section id="projects" class="projects-section py-10">
+      <h1 class="project-heading">Our Projects</h1>
+      <div class="container-project mx-auto">
+        <!-- Tabs Navigation -->
+        <div class="tabs flex justify-center mb-6">
+          <button class="tab-btn active" data-type="commercial">
+            Commercial
+          </button>
+          <button class="tab-btn" data-type="residential">Residential</button>
+          <button class="tab-btn" data-type="industrial">Industrial</button>
+          <button class="tab-btn" data-type="hospitality">Hospitality</button>
+        </div>
+
+        <!-- Project Slider -->
+        <div class="project-slider">
+          <!-- Commercial Projects -->
+          <div class="project-tab-content commercial active">
+            <div class="slider-item">
+              <img
+                src="https://www.horizonproperty.co.in/images/products/commercial-property.jpg"
+                alt="Commercial Project 1"
+              />
+              <div class="slider-info">
+                <h3>Commercial Project 1</h3>
+                <p>
+                  Creative and modern commercial space for businesses and
+                  clients.
+                </p>
+                <a href="#" class="view-more-btn">View More</a>
+              </div>
+            </div>
+            <!-- Add more commercial items as needed -->
+          </div>
+
+          <!-- Residential Projects -->
+          <div class="project-tab-content residential">
+            <div class="slider-item">
+              <img
+                src="https://delf2iyv2crlj.cloudfront.net/Images/Godrej%20Pune%20Dsktop%20Size%20f392aba9-6036-4f23-82bf-f35bf0a11a78.webp"
+                alt="Residential Project 1"
+              />
+              <div class="slider-info">
+                <h3>Residential Project 1</h3>
+                <p>
+                  Cozy and luxurious living spaces tailored for comfortable
+                  lifestyles.
+                </p>
+                <a href="#" class="view-more-btn">View More</a>
+              </div>
+            </div>
+            <!-- Add more residential items as needed -->
+          </div>
+
+          <!-- Industrial Projects -->
+          <div class="project-tab-content industrial">
+            <div class="slider-item">
+              <img
+                src="https://nobrokeragehub.com/wp-content/uploads/2024/01/Pune.jpg"
+                alt="Industrial Project 1"
+              />
+              <div class="slider-info">
+                <h3>Industrial Project 1</h3>
+                <p>
+                  State-of-the-art industrial spaces for manufacturing and
+                  logistics.
+                </p>
+                <a href="#" class="view-more-btn">View More</a>
+              </div>
+            </div>
+            <!-- Add more industrial items as needed -->
+          </div>
+
+          <!-- Hospitality Projects -->
+          <div class="project-tab-content hospitality">
+            <div class="slider-item">
+              <img
+                src="https://www.ahstatic.com/photos/6543_ho_00_p_1024x768.jpg"
+                alt="Hospitality Project 1"
+              />
+              <div class="slider-info">
+                <h3>Hospitality Project 1</h3>
+                <p>
+                  Elegant hospitality spaces for hotels, resorts, and
+                  restaurants.
+                </p>
+                <a href="#" class="view-more-btn">View More</a>
+              </div>
+            </div>
+            <!-- Add more hospitality items as needed -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section End -->
+
+    <!-- Services start -->
+
+    <h1  id="services" >Our Services</h1>
+  <div class="services-container">
+    <div class="service-card">
+      <img class="service-image" src="https://www.adanirealty.com/-/media/project/realty/residential/pune/atelier-greens/carousel-images/thumbnail-image/2.ashx" alt="Apartment Design">
+      <p class="service-title">Apartment Design</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://is1-2.housingcdn.com/4f2250e8/421e88f6d57519c794d776f24f41a0c1/v0/fs/vtp_velvet_villas-kharadi_annex-pune-vtp_realty.jpeg" alt="Villa Design">
+      <p class="service-title">Villa Design</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://digs.net/wp-content/uploads/2018/03/FSLA-Penthouse-Rooftop-Garden.jpg" alt="Penthouse Interior">
+      <p class="service-title">Penthouse Interior</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://www.kohinoorpune.com/hubfs/large-office-space%20%281%29.jpg" alt="Office Designing">
+      <p class="service-title">Office Designing</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://foto.hrsstatic.com/fotos/0/2/800/458/80/000000/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2Fdms%2F825825%2FICE%2F73541714_xl.jpg/98d88b0b73485acb7e30018b0d2fcd9e/511%2C341/6/Conrad_Pune-Pune-Double_room_superior-4-825825.jpg" alt="Restaurant Designing">
+      <p class="service-title">Restaurant Designing</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://www.kohinoorpune.com/hs-fs/hubfs/Retail%20Spaces%20in%20Pune.jpg?width=700&name=Retail%20Spaces%20in%20Pune.jpg" alt="Retail Store Design">
+      <p class="service-title">Retail Store Design</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://5.imimg.com/data5/SELLER/Default/2021/12/OP/RQ/EZ/15792977/residential-landscape-service-500x500.jpeg" alt="Landscape Design">
+      <p class="service-title">Landscape Design</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://image.wedmegood.com/resized/720X/uploads/member/24566026/1716879143_2023_12_15.jpg?crop=6,111,1346,757" alt="Event Space Design">
+      <p class="service-title">Event Space Design</p>
+    </div>
+    <div class="service-card">
+      <img class="service-image" src="https://imagecdn.99acres.com/media1/25816/19/516339483M-1736136625837.jpg" alt="Custom Interiors">
+      <p class="service-title">Custom Interiors</p>
+    </div>
+  </div>
+
+    <!-- Services end -->
+
+    <!-- Contact Us Start -->
+    <section id="contact" class="contact-us">
+        <div class="container">
+          <!-- Left Section: Image -->
+          <div class="contact-left">
+            <img src="https://hoteldesigns.net/wp-content/uploads/2016/04/ConradPune.jpg" alt="Contact Us">
+          </div>
+    
+          <!-- Right Section: Contact Form -->
+          <div class="contact-right">
+            <h1>Contact Us</h1>
+            <p>Feel free to reach out to us for any queries or feedback. We’re here to help!</p>
+    
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" id="name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" id="email" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" id="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    
+    
+    <!-- Contact Us End -->
+
+    <!-- Start Footer Sectio -->
+
+    <footer class="footer bg-gray-800 text-white py-4">
+      <div
+        class="container-footer mx-auto flex flex-col md:flex-row justify-between items-center"
+      >
+        <div class="text-center md:text-left">
+          <p>© 2025 Your Company Name. All rights reserved.</p>
+        </div>
+        <div
+          class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0"
+        >
+          <p class="text-sm">Contact: info@yourcompany.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
